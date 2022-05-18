@@ -1,6 +1,7 @@
 import os
 
 class Game:
+
 	def __init__(self, players):
 		self.players = players
 		self.board = [-1] * 9
