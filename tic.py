@@ -57,7 +57,7 @@ def br(amount):
 	print("\n" * amount)
 
 def cls():
-	os.system("cls" if os.name=="nt" else "clear")
+	os.system("cls" if os.name == "nt" else "clear")
 
 p1 = input("Name des 1. Spielers: \n> ")
 p2 = input("Name des 2. Spielers: \n> ")
