@@ -8,7 +8,7 @@ class Game:
 	def nextRound(self, player):
 		self.paint()
 		br(1)
-		choice = input("Gib die Zahl eines Feldes an: \n> ")
+		choice = input("Gib die Zahl eines Feldes an: \nn" + self.players[player] + " > ")
 		
 		while True:
 			try:
